@@ -1,0 +1,319 @@
+h1, h2, h3, h4 {
+	color: #720943;
+}
+
+header {
+	background-color: #771d74; 
+	border: 1px solid #771d74;
+}
+
+.header {
+	height: 7.75em;
+	width:auto;
+}
+
+header a {
+	color: white; 
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+}
+
+nav ul {
+	/*padding: 0px 0px 0px 800px; */
+	float: right;
+}
+
+figcaption {
+	font-size: 0.80em;
+}
+
+.footer {
+	font-style: italic;
+	font-size: 0.80em;
+	text-align: center;
+	border-top: 1px solid #807e82;
+}
+
+.footer a {
+	color: #771d74;
+}
+
+.first-p::first-letter {
+	font-size: 3em;
+	font-weight: bold;
+	padding-right: 0.15em;
+	float: left;
+}
+
+
+/* -----------------------Homepage---------------------*/
+#homepage-header {
+	height: 400px;
+	width: auto;
+	background: #C33764; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #C33764 , #1D2671); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #C33764 , #1D2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background-image: url("space_wallpaper.jpg");*/
+
+}
+
+#mandalas {		/*homepage title*/
+	text-align:center;
+	font-size: 3em;
+	padding-top: 9.375%;
+
+}
+
+#mandalas a {
+	text-decoration: none;
+}
+
+.about {
+	padding: 0px 150px;
+}
+
+#homepage-fig {
+	text-align: center;
+	width: 500px;
+	padding: 10px;
+	margin: auto;
+}
+
+#homepage-img {
+	width: 500px;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+#learn-more {
+	text-align: center;
+}
+
+.goto {
+	padding: 0px 150px;
+}
+
+.goto-list {
+	text-align: center;
+
+}
+
+.goto-list:hover {
+	background-color: hsla(302,64%,23%,0.25);
+	border-radius: 2px;
+}
+
+.goto-list  a {
+	text-decoration: none;
+	color: #720943;
+}
+
+.goto ul {
+	list-style: none;
+	font-weight: bold;
+}
+
+#return {
+	text-align: center;
+	font-size: 0.75em;
+}
+
+#return a {
+	text-decoration: none;
+	color: #771d74;
+}
+
+/* ------------------------------Hinduism-----------------*/
+
+#hinduism {
+	text-align: center;
+}
+
+#hinduism a {
+	text-decoration: none;
+}
+
+.hind-section {
+	padding: 0px 150px;
+}
+
+#hinduism-fig {
+	text-align: center;
+	width: 500px;
+	padding: 10px;
+	margin: auto;
+}
+
+#hinduism-img {
+	width: 500px;
+	height: auto;
+}
+
+.nav-list {
+	display: inline;
+}
+
+/* --------------------------------Buddhism--------------------*/
+#buddhism-header {
+	text-align:center;
+}
+
+#buddhism-header a {
+	text-decoration: none;
+}
+
+.buddhism-section {
+	padding: 0px 150px;
+}
+
+.buddhism-fig {			/* all buddhism figures*/
+	text-align: center;
+	padding-top: 15px;
+	float: right;
+}
+
+.buddhism-fig figcaption {
+	width: 200px;
+}
+
+#tibet-mandala, 		/* all buddhism images*/
+#buddha-mandala,
+#tantric-mandala,
+#sand-mandala {
+	width: 200px;
+	height: auto;
+}
+
+/*----------------------Christianity------------------*/
+
+#christianity {				/*header title*/
+	text-align: center;
+}
+
+#christianity a {
+	text-decoration: none;
+}
+
+.christianity-section {		
+	padding: 0px 150px;
+}
+
+#christianity-fig {			/*christianity figure*/
+	text-align: center;
+	padding-top: 10px;
+}
+
+#christianity-img {
+	width: 500px;
+	height: auto;
+}
+
+/*-------------------Art & Gallery------------------*/
+
+.art-section {
+	padding: 0px 150px;
+}
+
+.row-img {
+	width: 200px;
+	height: auto;
+	padding: 0px 15px;
+}
+
+.row-info {
+	width: 200px;
+	height: auto;
+}
+
+table {
+	margin: auto;
+}
+
+table p {
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+#gallery-title,
+#art-title {
+	text-align: center;
+	font-size: 2.25em;
+}
+
+#art-header {
+	text-align: center;
+}
+
+#art-header a {
+	text-decoration: none;
+}
+
+/*---------------------------------------------------------*/
+/* ------------------- Media Queries ----------------------*/
+
+@media only screen and (min-width: 20em) and (max-width: 40em) {
+
+	#homepage-header {
+		height: 150px;
+		width: auto;
+		text-align: center;
+		background-image: none;
+	}
+
+	#mandalas {		/*homepage title*/
+		text-align:center;
+		font-size: 2em;
+		padding-top: 35px;
+		padding-left: 20px;
+	}
+
+	.first-p::first-letter {
+		font-size: 3em;
+		font-weight: bold;
+		padding-right: 0.15em;
+	}
+
+	#learn-more,
+	#return {
+		display: none;
+	}
+
+	.goto {
+		display: none;
+	}
+
+	.about,
+	.hind-section,
+	.buddhism-section,
+	.christianity-section,
+	.art-section {
+		padding: 0px 10px;
+	}
+
+	.row-img {
+		display: block;
+		width: 310px;
+		height: auto;
+
+	}
+
+	.row-info {
+		display: block;
+	}
+
+	#homepage-fig {
+		width: 15em;
+		margin: auto;
+	}
+
+	#homepage-img {
+		width: 15em;
+		text-align: center;
+	}
+}
+
+
