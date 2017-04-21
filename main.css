@@ -283,7 +283,11 @@ table p {
 	}
 
 	.goto {
-		display: none;
+		padding: 0;
+	}
+	
+	.goto ul {
+		padding: 0;
 	}
 
 	.about,
